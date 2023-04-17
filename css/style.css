@@ -1,0 +1,844 @@
+
+body,html{
+    min-width: 1200px;
+    width: 100%;
+    
+}
+
+/* ------------------------------nav---------------------- */
+/* банер навигации */
+.header-page{
+    background-image: url(/image/Step-Project-Ham/Sections-background/section-1header.jpg);
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 1260px;
+    text-align: center;
+
+}
+/* навигаци */
+.header-nav{
+    background: rgba(94, 93, 88, 0.6);
+    
+}
+/* блок навигаци */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto; 
+     /* height: 120px; */
+    
+}
+/* буква в логотипе */
+.littera-logo{
+    background-image: url(/image/Polygon1.svg);
+    background-size: 1fr;
+    background-repeat: no-repeat;
+   font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 31px;
+padding: 14px 14px;
+color: #FFFFFF;
+}
+/* название логотипа */
+.logo-name{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+margin: 36px 0px;
+}
+/* ссылки навигации */
+.menu-link{
+    color: rgba(255, 255, 255, 0.6);;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 21px;
+  border-bottom: 2px solid  transparent;
+height: 100%;
+display: flex;
+align-items: center;
+
+}
+.nav-link{
+   list-style: none;
+  display: block;
+   height: 100%;
+}
+
+/* второй цвета логотипа */
+.clor-logo-text{
+color:#18cfab;
+    font-size: 32px;
+    font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+font-weight: bold;
+}
+/* иконка поиска */
+.search-icon{
+    width:20px ;
+    height: 20px;
+}
+/* контейнер ссылок */
+.nav-menu{
+    padding: 0;
+    margin: 0;
+   display:flex; 
+   justify-content: space-between;
+   align-items: center  ;
+   /* overflow: hidden; */
+  height: 120px;
+
+}
+/* наведение сылок навигации */
+.header-nav a:hover{
+    color: #18CFAB;
+   border-bottom: 2px solid  #18CFAB;
+    box-sizing: border-box;
+}
+/* --------------------------------------------- */
+/* ---------------------------------title----------------------- */
+/* заголовок секции */
+.header-title{
+    max-width: 1160px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* Н3 заголово */
+.title-description{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-top: 264px;
+}
+/* второй цвет заголовка Н3 */
+.title-description-color{
+    color: #18cfab;
+}
+/* заголовок Н1 */
+.title-main{
+    font-weight: 700;
+font-size: 78px;
+margin-top: 22px;
+margin-bottom: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+/* описание тайтл */
+.title-about{
+    font-weight: 400;
+    font-size: 34px; 
+    color: #D4D4D4;
+    margin-top: 22px;
+    margin-bottom: 134px;
+}
+/* кнопка заголовка explore */
+.button-explore{
+    background-color: #18CFAB;
+    color: #FFFFFF;
+    padding: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 243px;
+    border: 0;
+    width: 169px;
+    text-transform: uppercase;
+}
+.button-explore:hover{
+    box-shadow: 0px -3px 0px #FFFFFF;
+}
+.botton-purchase:hover{
+    box-shadow: 0px -3px 0px #FFFFFF;
+}
+/* вторая кнопка */
+.botton-purchase{
+    background-color:#00CBF6;
+    color: #FFFFFF;
+    padding: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 243px;
+    border: 0;
+    width: 169px;
+    text-transform: uppercase;
+margin-left: 26px;
+}
+/* опциональное меню  */
+.optional-header{
+    display: flex;
+    }
+/* блоки с опционалом */
+.optional-item{
+   background-color:#1C2A33;
+    width: 100%;
+    display: flex;
+justify-content: center;
+min-height: 377px;
+align-items: center;
+flex-direction: column;
+background: rgb(190, 231, 209);
+}
+
+/* дргугой цвет блока опционал  */
+.optional-clor{
+    background-color: #18CFAB;
+}
+/* текст опционала  */
+.text-iptional{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+text-transform:uppercase ;
+}
+/* текст опционала другой цвет */
+.text-iptional-color{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #18CFAB;
+text-transform:uppercase ;
+}
+/* картинки опционала */
+.img-optional{
+text-align: center;
+}
+/* артикл сервисов */
+.about-service{
+    max-width: 1160px;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;  
+}
+.service-border-first{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    border-bottom:1px solid #18CFAB; 
+    margin-top: 3px;
+    padding-left: 11px;
+}
+.service-border{
+    position: absolute;
+    bottom: 0;
+    right : 0;
+    width: 80px;
+    border-bottom:1px solid #18CFAB;
+}
+.service-border-section{
+    position: relative;
+    max-width: 100px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 65px;
+}
+/* тайтл сервисов */
+.service-title{
+    font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+color:#4E4E4E; ;
+text-align: center;
+margin-top: 83px;
+margin-bottom: 20px;
+}
+/* список услуг  */
+.optional-services{
+    display: flex;
+    background-color:#F8FCFE ;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 23px;
+    
+}
+/* услуги */
+.optional-services-item{
+padding: 17px  20px;
+ width: 100%;
+    text-align: center;
+    list-style: none;
+  color:   #717171;
+  font-weight: 400;
+font-size: 16px;
+line-height: 39px;
+border: 2px solid transparent;
+position: relative;
+}
+.optional-services-item-active{
+    background-color: #18CFAB;
+    color: #FFFFFF;
+    position: relative;
+  
+}
+.optional-services-item.optional-services-item-active:after {
+    display: block;
+
+   
+}
+
+/* псевдо елемент  */
+.optional-services-item::after{
+    position: absolute;
+    content: '';
+    border: 12px solid transparent;
+    border-top: 12px solid#18CFAB;
+    left: 50%;
+    margin-left: -12px;
+    bottom: -20px;
+ 
+   width: 0;
+   display: none;
+}
+/* навидение на айтем сервивов */
+/* li.selected:after, li:hover:after */
+ .optional-services-item:hover
+{
+   border: 2px solid #18CFAB;
+  
+}
+.comments-main{
+    display: flex;
+}
+.hiden{
+    display: none;
+}
+
+
+
+
+/* картинка и текст сервисков*/
+.optional-description-services{
+    display: flex;
+}
+/* текст сервисков */
+.text-service{
+    margin: 0 0 0 15px;
+   color: #777777;
+font-weight: 300;
+font-size: 13.645px;
+line-height: 24px;
+}
+/* картинка сервиса  */
+.img-service{
+    width: 192px;
+    height: 139px;
+}
+/* --------------------------------------------------------------------- */
+/* секция скачать */
+
+.seve{
+    text-align: center;
+background-image:url(/image/Step-Project-Ham/Sections-background/section-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: center;
+background-position-y: center;
+position: relative;
+}
+.seve:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 2;
+  }
+
+
+/* заголовок скачать */
+.seve-main-title{
+    position: relative;
+    z-index: 3;
+   color: #18CFAB;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 40px;
+   padding-top: 127px;
+   margin-bottom: 12px;
+}
+/* описание скачать */
+.seve-description-title{
+    position: relative;
+    z-index: 3;
+font-size: 16px;
+line-height: 40px;
+color: #D8D8D8;
+margin-bottom: 67px;
+}
+.seve-button:hover{
+    box-shadow: 0px -3px 0px #FFFFFF;
+}
+/* кнопка скачать */
+.seve-button{
+    position: relative;
+    z-index: 3;
+    color: #FFFFFF;
+    background-color: #18CFAB;
+    font-weight: 700;
+font-size: 15px;
+line-height: 32px;
+padding: 16px 11px;
+border-radius: 5px;
+text-transform: uppercase;
+border: none;
+margin-bottom: 128px;
+}
+/* ---------------------------------------------------- */
+/* секция портфолио */
+.portfolio{
+background-color: #E9EDEF;
+}
+.portfolio-hover-icon{
+    margin-top: 40px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.portfolio-hover-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.1771px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+.portfolio-hovert-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 12.1518px;
+line-height: 25px;
+color: #8A8A8A;
+}
+.portfolio-img{
+    width: 285px;
+    height: 207px;
+    position: relative;
+}
+
+
+/* заголовок портфолио  */
+.portfolio-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color:#4E4E4E; ;
+    text-align: center;
+margin: 0;
+    padding-top: 97px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* списко меню */
+.portfolio-items{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+/* кнопки переключения портфолио */
+.portfolio-link{
+    list-style: none;
+    padding: 0 17px;
+    color: #717171;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 42px;
+    /* border: 2px solid transparent; */
+    border: 1px #DADADA solid;
+    margin-bottom: 69px;
+}
+/* навидение на кнопку переключения портфолио */
+
+.portfolio-link-activ{
+    border: 1px #18CFAB solid;
+    color:#18CFAB
+}
+/* контейнер портфолио */
+.container{
+    max-width: 1160px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+/* картинки портфолио */
+.portfolio-section-image{
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+   
+}
+.portfolio-image-wraper{
+    width: 285px;
+    height:210px ;
+ position: relative;  
+ overflow: hidden;  
+
+}
+.portfolio-image-wraper:hover .portfolio-image{
+ 
+    
+}
+.portfolio-image-wraper:hover .portfolio-hover{
+   
+   
+    transform: translateY(0);
+   
+    
+    }
+.portfolio-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: relative;
+   z-index: 1;
+    
+    
+    
+}
+
+.portfolio-hover{
+   
+    height: 100%;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 1s;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+        border-top: 2px solid #18CFAB;
+        background-color: #E9EDEF;
+    }
+/* кнопка загрузить картинки портфолио */
+.portfolio-load{
+   position: relative;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #18CFAB;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 42px;
+padding:0 13px 0 0;
+margin-bottom: 99px;
+}
+.portfolio-text-button{
+padding-left: 45px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 42px;
+}
+.portfolio-load::after{
+    left: 20px;
+    top: 17px;
+
+    content: url(/image/plus.svg);
+    position: absolute;
+   
+}
+
+.blog-post-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 39px;
+color: #717171;
+margin: 0;
+
+}
+/* текст под заголовком блога  */
+.blog-post-text{
+ color:  #777777;
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 14px;
+margin: 0;
+}
+/* секция блог */
+.blog{
+    max-width: 1160px;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto; 
+   
+}
+/* заголовок блога */
+.blog-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color:#4E4E4E; ;
+    text-align: center;
+    position: relative;
+margin: 0;
+padding-top: 82px;
+margin-bottom: 20px;
+}
+/* контейнер блог  */
+.blog-container{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* контейнер с тайтлом + текст */
+.bolg-imeges-text{
+    margin-left: 15px;
+    margin-bottom: 53px;
+}
+
+/* контейнер текста под тайтлом  */
+.blog-post-text-flex{
+    margin-top: 6px;
+    display: flex;
+}
+/* стилизование второго текста коментарий */
+.post-text-first{
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #777777;
+}
+/* секция с картинкой и текстом  */
+.blog-post{
+    position: relative;
+}
+/* картинка с датой */
+.blog-imeges-data{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 64px;
+}
+/* навидение на блок ( текст) */
+.blog-post:hover .blog-post-title{
+    transition: 0.5s;
+    color: #18CFAB;
+}
+/* картинка дата ховер */
+.blog-imeges-data-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+/* навидение на блок ( дата) */
+.blog-post:hover .blog-imeges-data-hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+/* ------------------------------------------------------------- */
+.comments{
+    
+    background-image: url(/image/Step-Project-Ham/Sections-background/section-3.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+    background-position-x: center;
+
+background-position-y: center;
+
+}
+
+/* скрытие текста,имени,профисеия*/
+.comments-text-hiden{
+    display: none;
+}
+.comments-name-hiden{
+    display: none; 
+}
+.comments-profession-hiden{
+    display: none;   
+}
+.comments-name-profession-hiden{
+    display: none;
+}
+.comments-container{
+    max-width: 1160px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+/* тайтл лого  */
+
+.comments-title-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* тайтл коментарий */
+.comments-title{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+margin: 0;
+padding-top: 98px;
+margin-bottom: 99px;
+}
+/* коменнтирии текст */
+.comments-text{
+    color:#BBBBBB;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+margin: 0;
+margin-top: 37px;
+margin-bottom: 37px;
+}
+.commets-slider-section{
+    display: flex;
+    transform: translateX(50px);
+    transition: 1s;
+    /* width: 420px; */
+    /* overflow: hidden; */
+}
+.comments-secion-flex{
+    width: 520px;
+    margin: 0 auto;
+}
+
+/* имя коментатора */
+.comments-user-name{
+    margin: 0;
+  color:  #18CFAB;  
+  text-transform:uppercase;
+}
+
+/* професиия коментатора  */
+.comments-user-profession{
+    margin: 0;
+    color: #BBBBBB;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 27px;
+}
+
+/* главное фото коментатора */
+.comments-main-imeges{
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px; 
+    margin-bottom: 51px;
+    /* height: 100%; */
+   
+}
+
+/* фото слайдера  */
+.comments-imeges{
+margin-left:25px;
+height: 73px;
+max-width: 80px;
+
+user-select: none;
+/* max-height: 171px; */
+}
+.comments-imeges-activ{
+    transform: translateY(-15px);
+}
+
+
+/* контейнер слайдер */
+.comments-secion-flex{
+    position: relative;
+}
+.comments-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 99px;
+   padding-top: 25px;
+    width: 420px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+
+}
+/* стрелка слайдера */
+.comments-arrow-right{
+    margin-left:25px ;
+    position:absolute;
+    right: 0;
+
+}
+.comments-arrow-left{
+    margin-left:25px ;
+    position:absolute;
+    /* top: 0; */
+    left: 0;
+}
+
+.comments-arrow-left:hover{
+   
+background-color:  #18CFAB;
+
+}
+.comments-arrow-right:hover{
+    
+    background-color:  #18CFAB;
+    
+    }
+.footer-text-color{
+    color: #18CFAB;
+
+}
+.text-footer{
+    text-align: center;
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom:48px ;
+    color: #AEAEAE;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+.footer-page{
+    background-color: #22353F;
+}
+
+
+
