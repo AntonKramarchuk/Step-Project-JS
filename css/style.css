@@ -8,7 +8,7 @@ body,html{
 /* ------------------------------nav---------------------- */
 /* банер навигации */
 .header-page{
-    background-image: url(/image/Step-Project-Ham/Sections-background/section-1header.jpg);
+    background-image: url(../image/Step-Project-Ham/Sections-background/section-1header.jpg);
     background-color: darkgray;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@ body,html{
 }
 /* буква в логотипе */
 .littera-logo{
-    background-image: url(/image/Polygon1.svg);
+    background-image: url(../image/Polygon1.svg);
     background-size: 1fr;
     background-repeat: no-repeat;
    font-style: normal;
@@ -343,7 +343,7 @@ line-height: 24px;
 
 .seve{
     text-align: center;
-background-image:url(/image/Step-Project-Ham/Sections-background/section-2.jpg);
+background-image:url(../image/Step-Project-Ham/Sections-background/section-2.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position-x: center;
@@ -564,7 +564,7 @@ line-height: 42px;
     left: 20px;
     top: 17px;
 
-    content: url(/image/plus.svg);
+    content: url(../image/plus.svg);
     position: absolute;
    
 }
@@ -665,7 +665,7 @@ margin-bottom: 20px;
 /* ------------------------------------------------------------- */
 .comments{
     
-    background-image: url(/image/Step-Project-Ham/Sections-background/section-3.jpg);
+    background-image: url(../image/Step-Project-Ham/Sections-background/section-3.jpg);
 background-size: cover;
 background-repeat: no-repeat;
     background-position-x: center;
