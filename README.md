@@ -1,5 +1,5 @@
 # Step-Project-JS
-### JS Functional
+###  JS Functional
 #### Tabs in "Our Services" block;
 #### Generation, reloading by click on the "Load more" button, filtering cards in the "Our Amazing Work" block;
 #### Slider by pure JS in the "What people say about theHam" block.
